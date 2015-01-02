@@ -309,8 +309,8 @@ Full-Width Styles
 
 #project_tagline {
     color: #fff;
-    font-size: 24px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 100;
     background: none;
     text-shadow: #111 0px 0px 10px;
 }
@@ -343,7 +343,7 @@ Full-Width Styles
 
 #footer_wrap {
     background: #212121;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 
@@ -404,10 +404,24 @@ Small Device Styles
 /*******************************************************************************
 Images
 *******************************************************************************/
+.imgL, .imgR, .Cohle_Speech {
+    padding-bottom: 10px;
+}
+
+.imgL, .imgR, .Cohle_Speech:hover {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
 .imgL {
     float: left;
 }
 
 .imgR {
     float: right;
+}
+
+.Cohle_Speech {
+    float:left;
+    background-image: 'images/Cohle_Smoke.jpg';
 }
