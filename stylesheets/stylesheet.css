@@ -303,14 +303,14 @@ Full-Width Styles
     margin: 0;
     color: #fff;
     font-size: 42px;
-    font-weight: 700;
+    font-weight: 400;
     text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
     color: #fff;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 200;
     background: none;
     text-shadow: #111 0px 0px 10px;
 }
@@ -329,37 +329,10 @@ Full-Width Styles
     color: #007edf;
     cursor: pointer;
     text-shadow: none;
-
-    transition: color 0.5s ease;
-    transition: text-shadow 0.5s ease;
-    -webkit-transition: color 0.5s ease;
-    -webkit-transition: text-shadow 0.5s ease;
-    -moz-transition: color 0.5s ease;
-    -moz-transition: text-shadow 0.5s ease;
-    -o-transition: color 0.5s ease;
-    -o-transition: text-shadow 0.5s ease;
-    -ms-transition: color 0.5s ease;
-    -ms-transition: text-shadow 0.5s ease;
-}
-
-.zip_download_link {
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
-
-.tar_download_link {
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-}
-
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
 }
 
 #main_content_wrap {
-    background: #f2f2f2;
+    background: #fff;
     border-top: 1px solid #111;
     border-bottom: 1px solid #111;
 }
