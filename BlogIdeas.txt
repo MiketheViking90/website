@@ -1,1 +1,3 @@
-Rustin Cohle speech generator
+1. Rustin Cohle speech generator
+2. generalized speech generator (given input)
+3. 
